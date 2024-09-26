@@ -1,8 +1,10 @@
 def solution(a, b):
-    q = str(a) + str(b)
     answer = 0
-    return answer
+    plus = str(a) + str(b)
+    m = 2 * a * b
+    if int(plus) >= m:
+        return int(plus)
+    else:
+        return m
 
 print(solution(2, 91))
-print(q)
-

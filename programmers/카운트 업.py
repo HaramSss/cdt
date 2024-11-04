@@ -7,3 +7,6 @@ def solution(start_num, end_num):
     return answer
 
 print(solution(3, 10))
+
+# def solution(start, end):
+#     return list(range(start, end + 1))
